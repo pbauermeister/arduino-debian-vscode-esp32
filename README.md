@@ -52,7 +52,7 @@ Using a relatively recent (as per December 2023) Debian-based distro.
 
 1. Command palette (F1): `Arduino: Board config`
     - Selected board: `Adafruit Feather ESP32-S3 Reverse TFT (esp-32)`
-    - All fields:
+    - All other fields are left unchanged:
 
         ![Board config](img/arduino-board-config.png?raw=true "Board config")
 
@@ -60,13 +60,13 @@ Using a relatively recent (as per December 2023) Debian-based distro.
       circuitpython.
 
 
-## 6. Libraries
+## 7. Libraries
 
 1. Command palette (F1): `Arduino: Library manager`, then add:
     - Adafruit GFX Library
     - Adafruit ST7735 and ST7789 Library
 
-## 7. Flash
+## 8. Flash
 
 1. In the VSCode tab showing the `.ino` file, click
    ![Upload](img/upload.png?raw=true "Upload"). With the board config as per §6.1,
@@ -74,7 +74,7 @@ Using a relatively recent (as per December 2023) Debian-based distro.
 
 2. Click the reset button on the board.
 
-## 8. Git
+## 9. Git considerations
 
 The `.vscode/` folder contains settings that are IMHO not optimally distributed
 in their config files when it is about git tracking, so I suggest to handle the
